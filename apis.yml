@@ -1,20 +1,60 @@
 aid: aerofs
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aerofs.png
 name: AeroFS
-description: AeroFS is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AeroFS was an enterprise file sync-and-share and secure collaboration product built by Air
+  Computing Inc., founded in 2010 out of Y Combinator with seed backing from Andreessen Horowitz
+  (a16z Seed), SV Angel, Avalon Ventures, and angels including Chris Sacca, Maynard Webb, Jerry
+  Yang, and Paul Buchheit. Its differentiator was peer-to-peer, private-cloud file sync that kept
+  data on a company's own devices rather than a vendor's servers. Air Computing later pivoted to a
+  team collaboration app called Amium. In 2017 the company merged with Redbooth (CEO and co-founder
+  Yuri Sagalov became CEO of Redbooth), Amium was shut down on December 15, 2017, and the AeroFS
+  technology was folded into Redbooth's product line. The standalone AeroFS product, developer
+  program, and API are no longer operated; the aerofs.com domain is now a parked GoDaddy "for sale"
+  page. This API Evangelist profile is retained as a historical/defunct-company record rather than
+  an active developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/aerofs/refs/heads/main/apis.yml
 x-type: company
 x-source: a16z-portfolio
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: Redbooth
+x-legal-entity: Air Computing Inc.
+x-founded: '2010'
+x-shutdown: '2017'
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Defunct
+- Acquired
+- File Sync
+- File Sharing
+- Enterprise Collaboration
+- Cloud Storage
+- Private Cloud
+- Y Combinator
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
